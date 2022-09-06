@@ -100,7 +100,7 @@ class Solution:
           The data that is dequeued if the queue is not empty.
         """
         # Write your code her0e
-          if not self.is_queue_empty():
+        if not self.is_queue_empty():
             self.front += 1
             return self.queue[self.front - 1] 
 
